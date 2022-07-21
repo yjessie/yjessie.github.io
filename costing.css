@@ -1,0 +1,234 @@
+.name{
+    color: gold;
+    font-family: "Baskerville Old Face";
+    font-size: 50px;
+    font-weight: bold;
+    position: absolute;
+    top: 30px;
+    left: 200px;
+
+}
+
+.rectangle{
+    background: lightblue;
+    width: 100%;
+    height: 120px;
+
+}
+
+.UC{
+    color:lightyellow;
+    font-family: "Baskerville Old Face";
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 85px;
+    left: 560px;
+}
+
+.CI{
+    color:lightyellow;
+    font-family: "Baskerville Old Face";
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 85px;
+    left: 860px;
+}
+
+.Analysis{
+    color:lightyellow;
+    font-family: "Baskerville Old Face";
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 60px;
+    left: 1160px;
+}
+
+.Exchange{
+    color:lightyellow;
+    font-family: "Baskerville Old Face";
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 60px;
+    left: 1460px;
+}
+
+.group{
+
+    border: 1px solid darkgrey;
+    border-radius: 12px;
+    width: 550px;
+    height: 360px;
+    position: absolute;
+    top: 400px;
+    left: 200px;
+}
+
+.amount{
+    height: 40px;
+    width: 280px;
+    position: absolute;
+    top: 440px;
+    left: 1000px;
+}
+
+.Comment{
+    height: 40px;
+    width: 280px;
+    position: absolute;
+    top: 730px;
+    left: 1000px;
+}
+
+.year{
+    width: 80px;
+    height: 40px;
+    position: absolute;
+    top: 580px;
+    left: 1000px;
+    display: inline-block;
+}
+
+.button_year{
+
+    background-color: white;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.year:hover .dropdown-content {
+    display: block;
+}
+
+.month{
+    width: 80px;
+    height: 40px;
+    position: absolute;
+    top: 580px;
+    left: 1100px;
+    display: inline-block;
+}
+
+.button_month{
+
+    background-color: white;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.Month_dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.Month_dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.Month_dropdown-content a:hover {background-color: #f1f1f1}
+
+.month:hover .Month_dropdown-content {
+    display: block;
+}
+
+.date{
+    width: 80px;
+    height: 40px;
+    position: absolute;
+    top: 580px;
+    left: 1200px;
+    display: inline-block;
+}
+
+.button_date{
+
+    background-color: white;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.Date_dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.Date_dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.Date_dropdown-content a:hover {background-color: #f1f1f1}
+
+.date:hover .Date_dropdown-content {
+    display: block;
+}
+
+.cancel_button{
+    width: 10%;
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    top: 850px;
+    left: 500px;
+}
+.user_button{
+    width: 10%;
+    background-color: darkgrey;
+    border: none;
+    color: black;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    top: 850px;
+    left: 1000px;
+}

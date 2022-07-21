@@ -1,0 +1,54 @@
+.name{
+    color: gold;
+    font-family: "Baskerville Old Face";
+    font-size: 50px;
+    font-weight: bold;
+    position: absolute;
+    top: 60px;
+    left: 800px;
+
+}
+
+.rectangle{
+    background: whitesmoke;
+    border: 15px solid lightgoldenrodyellow;
+    border-radius: 12px;
+    width: 450px;
+    height: 500px;
+    position: absolute;
+    top: 200px;
+    left: 700px;
+
+}
+
+.button {
+    width: 40%;
+    background-color: darkgrey;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    top: 380px;
+    left: 50px;
+}
+
+.avator{
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    top: 160px;
+    left: 250px;
+}
+
+.button_pic{
+    position: absolute;
+    bottom: 100px;
+    left: 750px;
+
+}

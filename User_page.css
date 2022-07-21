@@ -1,0 +1,154 @@
+.name{
+    color: gold;
+    font-family: "Baskerville Old Face";
+    font-size: 50px;
+    font-weight: bold;
+    position: absolute;
+    top: 30px;
+    left: 200px;
+
+}
+
+.rectangle{
+    background: lightblue;
+    width: 100%;
+    height: 120px;
+
+}
+
+.UC{
+    color:lightyellow;
+    font-family: "Baskerville Old Face";
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 85px;
+    left: 560px;
+}
+
+.CI{
+    color:lightyellow;
+    font-family: "Baskerville Old Face";
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 85px;
+    left: 860px;
+}
+
+.Analysis{
+    color:lightyellow;
+    font-family: "Baskerville Old Face";
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 60px;
+    left: 1160px;
+}
+
+.Exchange{
+    color:lightyellow;
+    font-family: "Baskerville Old Face";
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 60px;
+    left: 1460px;
+}
+
+.cash_flow{
+    background-color: aliceblue;
+    border: 3px solid gray;
+    border-radius: 18px;
+    width: 440px;
+    height: 300px;
+    position: absolute;
+    top: 250px;
+    left: 400px;
+}
+.name_cf{
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+
+}
+
+.image_cf{
+    width: 435px;
+    height: 295px;
+
+}
+
+.account_overview{
+    background-color: aliceblue;
+    border: 3px solid gray;
+    border-radius: 18px;
+    width: 440px;
+    height: 200px;
+    position: absolute;
+    top: 250px;
+    left: 900px;
+}
+
+.name_ao{
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+}
+
+.image_ao{
+    width: 435px;
+    height: 195px;
+}
+
+.business_performance{
+    background-color: aliceblue;
+    border: 3px solid gray;
+    border-radius: 18px;
+    width: 440px;
+    height: 300px;
+    position: absolute;
+    top: 600px;
+    left: 400px;
+}
+
+.name_bp{
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+}
+
+.image_bp{
+    width: 435px;
+    height: 295px;
+}
+
+.track{
+    background-color: aliceblue;
+    border: 3px solid gray;
+    border-radius: 18px;
+    width: 440px;
+    height: 400px;
+    position: absolute;
+    top: 500px;
+    left: 900px;
+}
+
+.name_track{
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+}
+
+.image_track{
+    width: 435px;
+    height: 395px;
+}
