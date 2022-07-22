@@ -1,0 +1,77 @@
+.name{
+    color: gold;
+    font-family: "Baskerville Old Face";
+    font-size: 50px;
+    font-weight: bold;
+    position: absolute;
+    top: 30px;
+    left: 200px;
+
+}
+
+.rectangle{
+    background: lightblue;
+    width: 100%;
+    height: 120px;
+
+}
+
+.UC{
+    color:lightyellow;
+    font-family: "Baskerville Old Face";
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 85px;
+    left: 560px;
+}
+
+.CI{
+    color:lightyellow;
+    font-family: "Baskerville Old Face";
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 85px;
+    left: 860px;
+}
+
+.Analysis{
+    color:lightyellow;
+    font-family: "Baskerville Old Face";
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 60px;
+    left: 1160px;
+}
+
+.Exchange{
+    color:lightyellow;
+    font-family: "Baskerville Old Face";
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 60px;
+    left: 1360px;
+}
+.connect{
+    color:lightyellow;
+    font-family: "Baskerville Old Face";
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 85px;
+    left: 1560px;
+}
+.question{
+    font-family: "Baskerville Old Face";
+    font-size: 20px;
+    position: absolute;
+    top: 200px;
+    left: 700px;
+}
+.head{
+    font-family: "Baskerville Old Face";
+    font-size: 25px;
+}

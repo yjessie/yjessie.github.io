@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Sign up</title>
     <link rel = "stylesheet" type = "text/css" href = "index.css">
+    <script type="text/javascript" src="index.js"></script>
     <style>
         body{background-color:whitesmoke}
     </style>
@@ -17,17 +18,17 @@
         <h2 class="sign_in">Sign in</h2>
         <label class="username"><b>Username</b></label>
         <br>
-        <input class="input_username" type="text" placeholder="Enter Username" name="uname" required>
+        <input class="input_username" type="text" id = "username" placeholder="Enter Username" name="uname" required>
         <br><br>
         <label class="Password"><b>Password</b></label>
         <br>
-        <input class="input_password" type="password" placeholder="Enter Password" name="psw" required>
+        <input class="input_password" type="password" id = "password" placeholder="Enter Password" name="psw" required>
         <br>
         <label class="checkbox">
             <input type="checkbox" checked="checked" name="remember"> Remember me
         </label>
         <br>
-        <a href="User_page.html" class="button"  > Login </a>
+        <a onclick=check() class="button" > Login </a>
         <br>
         <a href="signUp.html" class="caa">Create an account</a>
 

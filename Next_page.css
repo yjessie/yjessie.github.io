@@ -1,0 +1,36 @@
+.name{
+    color: gold;
+    font-family: Arial;
+    font-size: 70px;
+    font-weight: bold;
+    position: absolute;
+    top: 50px;
+    left: 200px;
+
+}
+
+.second-title{
+    font-family:Arial;
+    font-size: 50px;
+    font-weight: bold;
+    position: absolute;
+    top: 200px;
+    left: 700px;
+}
+
+.word{
+    font-family:Arial;
+    font-size: 30px;
+    position: absolute;
+    top: 400px;
+    left: 600px;
+}
+
+.btn{
+    position: absolute;
+    top: 550px;
+    left: -100px;
+    font-family:Arial;
+    font-size:30px;
+    background-color:#909090;
+}

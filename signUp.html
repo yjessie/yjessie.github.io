@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>SignUp</title>
     <link rel = "stylesheet" type = "text/css" href = "signUp.css">
+    <script type="text/javascript" src="signUp.js"></script>
     <style>
         body{background-color:white}
     </style>
@@ -14,26 +15,26 @@
         <br>
         <h2 style="position:absolute; left: 50px; top: 30px"><b>Create your account</b></h2>
         <br>
-        <input class="first_name" type="text" placeholder="Enter Firstname" style="position:absolute; left: 50px; top: 120px; " required>
+        <input class="first_name" id = "first_name" type="text" placeholder="Enter Firstname" style="position:absolute; left: 50px; top: 120px; " required>
 
-        <input class="last_name" type="text" placeholder="Enter Lastname"  style="position:absolute; left: 50px; top: 170px; " required>
+        <input class="last_name" id="last_name" type="text" placeholder="Enter Lastname"  style="position:absolute; left: 50px; top: 170px; " required>
         <br>
         <br>
-        <input class="emailAddress" type="text" placeholder="Enter Email Address" style="position:absolute; left: 50px; top: 220px; " required>
+        <input class="emailAddress" id="emailAddress" type="text" placeholder="Enter Email Address" style="position:absolute; left: 50px; top: 220px; " required>
         <br>
         <br>
-        <input class="Create_password" type="text" placeholder="Enter password" style="position:absolute; left: 50px; top: 270px; " required>
+        <input class="Create_password" id="Create_password" type="text" placeholder="Enter password" style="position:absolute; left: 50px; top: 270px; " required>
         <br>
         <br>
-        <input class="cfm_password" type="text" placeholder="confirm password" style="position:absolute; left: 50px; top: 320px; " required>
+        <input class="cfm_password" id="cfm_password" type="text" placeholder="confirm password" style="position:absolute; left: 50px; top: 320px; " required>
 
-        <a href="Next_page.html" class="button"  > Next </a>
+        <a  class="button" onclick=check() id = "btm" > Next </a>
 
         <img src="avatar.png" class="avator">
 
     </div>
 
-    <img src="button.png" class="button_pic">
+    <img src="button1.png" class="button_pic">
 
 
 </body>

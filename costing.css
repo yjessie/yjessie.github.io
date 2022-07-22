@@ -53,7 +53,16 @@
     font-weight: bold;
     position: absolute;
     top: 60px;
-    left: 1460px;
+    left: 1360px;
+}
+.connect{
+    color:lightyellow;
+    font-family: "Baskerville Old Face";
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 85px;
+    left: 1560px;
 }
 
 .group{
@@ -72,6 +81,13 @@
     width: 280px;
     position: absolute;
     top: 440px;
+    left: 1000px;
+}
+.cal{
+    height: 40px;
+    width: 280px;
+    position: absolute;
+    top: 580px;
     left: 1000px;
 }
 
@@ -179,6 +195,7 @@
     border: 1px solid black;
     cursor: pointer;
 }
+
 .Date_dropdown-content {
     display: none;
     position: absolute;
